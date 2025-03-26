@@ -6,9 +6,10 @@ import { promises as fs } from "fs";
 import { ActivityGroup } from "./types";
 
 export const loadActivities = async (): Promise<ActivityGroup[]> => {
-  const rolesExplanationsData = await fs.readFile(process.cwd() + "/src/data/developer-role-description-senior-developer.csv", "utf8");
-
-  console.log({ rolesExplanationsData });
+  const rolesExplanationsData = await fs.readFile(
+    process.cwd() + "/src/data/developer-role-description-senior-developer.csv",
+    "utf8"
+  );
 
   const records = parse(rolesExplanationsData, {
     delimiter: ",",

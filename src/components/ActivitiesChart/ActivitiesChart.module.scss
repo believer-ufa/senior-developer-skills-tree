@@ -29,4 +29,20 @@
   font-weight: normal;
   line-height: 1.5;
   white-space: pre-wrap;
+  border: 1px solid #eee;
+  margin-bottom: 8px;
+  border-radius: 8px;
+
+  > .activity {
+    margin-bottom: 0;
+    border: none;
+    border-radius: 0;
+
+    
+  }
+
+  &[aria-expanded="true"] > .activity {
+    margin-bottom: 8px;
+    border-bottom: 1px solid #eee;
+  }
 }

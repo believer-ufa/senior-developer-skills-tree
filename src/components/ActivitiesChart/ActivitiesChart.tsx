@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import { Tree, TreeNodeTemplateOptions } from "primereact/tree";
 import { useMemo, useState } from "react";
@@ -6,14 +6,17 @@ import { ActivityLevelTitles } from "../../activities/titles";
 import { ActivityGroup } from "../../activities/types";
 import { TreeNodeWithActivityData } from "@/app/types";
 
-import styles from './ActivitiesChart.module.scss';
+import styles from "./ActivitiesChart.module.scss";
 
 export const ActivitiesChart = ({
   activitiesGroups,
 }: {
   activitiesGroups: ActivityGroup[];
 }) => {
-  const nodeTemplate = (node: TreeNodeWithActivityData, options: TreeNodeTemplateOptions) => {
+  const nodeTemplate = (
+    node: TreeNodeWithActivityData,
+    options: TreeNodeTemplateOptions
+  ) => {
     const label = <span>{node.label}</span>;
 
     if (node.desc) {
@@ -42,7 +45,7 @@ export const ActivitiesChart = ({
               key: `${groupTitle}.${activityTitle}`,
               children: Object.entries(levels)
                 .map(([levelTitle, levelDescription], idx) => ({
-                  label: ActivityLevelTitles?.[levelTitle] ?? '',
+                  label: ActivityLevelTitles?.[levelTitle] ?? "",
                   level: idx + 1,
                   desc: levelDescription,
                   key: `${groupTitle}.${activityTitle}.${levelTitle}`,
