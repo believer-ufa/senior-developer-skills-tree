@@ -20,12 +20,27 @@
 }
 
 .activityGroup {
-  font-weight: bold;
+  font-size: 22px;
+  padding-bottom: 16px;
+
+  > .activityGroup {
+    position: sticky;
+    top: 0;
+    padding-bottom: 0;
+    z-index: 2;
+
+    background-color: white;
+  }
+
+  &[aria-expanded="true"] > .activityGroup {
+    padding-bottom: 16px;
+  }
 }
 
 .activity {
   max-width: 700px;
   font-weight: normal;
+  font-size: 16px;
   line-height: 1.5;
   white-space: pre-wrap;
   border: 1px solid #eee;
@@ -37,7 +52,11 @@
     border: none;
     border-radius: 0;
 
+    position: sticky;
+    top: 50px;
+    z-index: 1;
 
+    background-color: white;
   }
 
   &[aria-expanded="true"] > .activity {
