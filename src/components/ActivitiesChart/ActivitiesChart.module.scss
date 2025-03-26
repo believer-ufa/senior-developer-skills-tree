@@ -2,7 +2,6 @@
   font-size: 14px;
   padding: 0.15rem 0;
   line-height: 1.5;
-  margin-left: 25px;
 
   :global(button.p-tree-toggler) {
     display: none;
@@ -38,7 +37,7 @@
     border: none;
     border-radius: 0;
 
-    
+
   }
 
   &[aria-expanded="true"] > .activity {

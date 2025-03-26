@@ -16,22 +16,24 @@ export default async function Home() {
     <PrimeReactProvider>
       <title>Senior Developer Skills Tree</title>
       <div className="app">
-        <h1>Senior Developer Skills Tree</h1>
-        <Fieldset
-          className={styles.skillsExplanations}
-          legend="Each skill have its own levels"
-          collapsed
-          toggleable
-        >
-          <ol>
-            <li>Below Expectations</li>
-            <li>Sometimes Achieving Expectations</li>
-            <li>Meeting Expectations</li>
-            <li>Exceeding Expectations</li>
-            <li>Setting a New Standard</li>
-          </ol>
-        </Fieldset>
-        <ActivitiesChart activitiesGroups={activities} />
+        <div className="app-container">
+          <h1>Senior Developer Skills Tree</h1>
+          <Fieldset
+            className={styles.skillsExplanations}
+            legend="Each skill have its own levels"
+            collapsed
+            toggleable
+          >
+            <ol>
+              <li>Below Expectations</li>
+              <li>Sometimes Achieving Expectations</li>
+              <li>Meeting Expectations</li>
+              <li>Exceeding Expectations</li>
+              <li>Setting a New Standard</li>
+            </ol>
+          </Fieldset>
+          <ActivitiesChart activitiesGroups={activities} />
+        </div>
       </div>
     </PrimeReactProvider>
   );

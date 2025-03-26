@@ -22,8 +22,8 @@ export const ActivitiesChart = ({
     if (node.desc) {
       return (
         <span className={options.className}>
-          <span className={styles.levelTitle}>{node.level}.</span>
-          <span className={styles.levelDescription}>&nbsp;{node.desc}</span>
+          <span className={styles.levelTitle}>{node.level}</span>
+          <span className={styles.levelDescription}> ⤑ {node.desc}</span>
         </span>
       );
     }
