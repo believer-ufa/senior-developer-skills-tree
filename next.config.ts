@@ -7,7 +7,7 @@ const getNextConfig = (phase: string) => {
    * @type {import('next').NextConfig}
    */
   const nextConfig = {
-    assetPrefix: isDev ? undefined : 'https://believer-ufa.github.io/senior-developer-skills-tree',
+    assetPrefix: isDev ? undefined : '/senior-developer-skills-tree',
     output: 'export',
   }
 
