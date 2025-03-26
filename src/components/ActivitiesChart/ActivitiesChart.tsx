@@ -6,7 +6,7 @@ import { ActivityLevelTitles } from "../../activities/titles";
 import { ActivityGroup } from "../../activities/types";
 import { TreeNodeWithActivityData } from "@/app/types";
 
-import styles from './ActivitiesChart.module.css';
+import styles from './ActivitiesChart.module.scss';
 
 export const ActivitiesChart = ({
   activitiesGroups,
