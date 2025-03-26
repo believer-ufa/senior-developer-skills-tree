@@ -1,0 +1,166 @@
+group,activity,belowExpectations,sometimesAchievingExpectations,meetingExpectations,exceedingExpectations,settingNewStandard
+Pre-demo and demo,"Participate in pre-demo sessions to engage with designers and product managers, understand features, express ideas, raise questions, and highlight concerns.",Rarely attends pre-demo or demo sessions,Attends some pre-demo and demo sessions,Regularly participates in pre-demo sessions,Actively contributes ideas and raises thoughtful questions during pre-demo sessions,"Leads discussions in pre-demo sessions, facilitating better understanding across teams"
+,Attend demo sessions to ensure there is no inconsistency and clarify any missing or unclear requirements at an early stage.,Shows little engagement or understanding of features,Occasionally asks questions or expresses ideas,Engages with designers and product managers,Identifies potential inconsistencies or missing requirements during demo sessions,Proactively follows up on clarifications and suggests improvements post-demo
+,Grasp the final presentation of features during demo sessions.,,,Attends demo sessions and grasps final feature presentations,,
+,,,,,,
+Investigation,Review Documentation and Requirements:,,,,,
+,"Study the feature documentation, specifications, and feature requests.",Fails to review documentation or engage with business units,Reviews some documentation and requirements,"Studies feature documentation, specifications, and requests thoroughly",Builds user flows and prototypes to visualize feature implementation,Leads cross-functional discussions to ensure comprehensive understanding of requirements
+,"Engage with business units, such as product managers and design teams, to clarify all requirements, terms, feature limitations, and user demographics.",,,Engages with business units to clarify requirements,,Develops innovative approaches to prototype and test complex features
+,Analyze Implementation Capabilities:,,,,,Creates detailed reports that serve as valuable resources for the entire team
+,Investigate platform and third-party library capabilities.,Shows minimal effort in investigating platform capabilities,Conducts basic investigation into existing codebase,Investigates platform and third-party library capabilities,"Conducts thorough investigations, including past implementations and business logic",
+,"Conduct thorough investigations into the existing codebase and business processes, including past implementations and business logic.","Final implementation not aligns with the investigation, some unforeseen issues found that heavily impact delivery","Final implementation not fully aligns with the investigation, some unforeseen issues found that impact delivery (medium impact)",Clearly documents findings and potential blockers,"Final implementation aligns perfectly with the investigation, with no unexpected issues or surprises during development","Final implementation not only aligns perfectly with the investigation but also identifies and resolves potential issues that weren't initially apparent, leading to an even better solution than originally envisioned"
+,"Assess the alignment of requirements with technical capabilities, identifying blockers and limitations.",,,Assesses alignment of requirements with technical capabilities,Propose enhanced solutions to optimize implementation and streamline logic while adhering to business requirements.,
+,Develop User Flows and Prototypes:,,,"Final implementation mostly aligns with the investigation, with only minor unforeseen issues that don't significantly impact delivery",,
+,"Build user flows to visualize feature implementation, if applicable.",,,,,
+,"Create prototypes to present to the team, if applicable.",,,,,
+,"If necessary, test the code to understand functionality, compile a report on feasibility, and document findings and demo code in the wiki or repository.",,,,,
+,Clarify and Document Findings:,,,,,
+,Ask questions to clarify any uncertainties and identify edge cases.,,,,,
+,"Document the analysis, including what can and cannot be done, in a detailed report.",,,,,
+,,,,,,
+API Specifications,"FE, iOS, Android: ",,,,,
+,Review the API draft from the backend team.,Shows little involvement in API review process,Reviews API drafts when prompted,Actively reviews API drafts from the backend team,Proactively engages in API specification discussions,Takes a leadership role in API specification development
+,Identify areas of concern and suggest improvements to create the most technically sound solution.,Fails to review or provide input on API drafts,Occasionally provides feedback on API specifications,Identifies areas of concern and suggests improvements,"Provides detailed, constructive feedback to create technically sound solutions",Implements innovative approaches to API design that improve overall system architecture
+,Assist in finalizing the agreement by discussing and sharing insights on any missing data.,,,Assists in finalizing agreements by discussing missing data,"Facilitates collaboration between frontend, mobile, and backend teams",Creates comprehensive documentation that serves as a model for future API specifications
+,,,,,,
+,Backend:,,,,,
+,"Lead the development of API specifications by researching necessary data, drafting comprehensive documentation, and finalizing agreements in collaboration with frontend and mobile developers. Ensure the final API agreement is approved by all teams.",Shows little involvement in API specification development process,Prepare API specifications drafts when prompted and for non-complex tasks only,Prepare API specifications drafts for complex tasks,Prepare detailed API specifications drafts for complex tasks,Takes a leadership role in API specification development
+,,Skip completely or provide low-quality specifications,Occasionally fails to notify other feature team members about changes in specifications,"Discuss specifications with other feature teams members, collect feedback and update specification accordingly","Facilitates discussions for specifications with other feature teams members, collect feedback and update specification accordingly",Implements innovative approaches to API design that improve overall system architecture
+,,Constantly fails to notify other feature team members about changes in specifications,,Timely notify other feature team members about any specification changes (or discuss them in advance),Timely notify other feature team members about any specification changes (or discuss them in advance),Creates comprehensive documentation that serves as a model for future API specifications
+,,,,,,
+,,,,,,
+Decomposition,Investigation and Task Breakdown:,"Fails to identify functional changes or breaks them into tasks ineffectively, causing confusion and inefficiencies.",Occasionally determines necessary functional changes and breaks them into actionable tasks but lacks consistency or clarity.,Determines necessary functional changes and breaks them into actionable tasks,Collaborates effectively with other team members to ensure comprehensive task breakdown,Implements innovative approaches to task breakdown that improve team efficiency
+,Determine necessary functional changes during the investigation process and break them down into actionable tasks.,"Inadequately breaks down stories into tasks, often overlooking essential details such as linking to epics or providing clear descriptions, resulting in poor task clarity and estimation issues.","Sometimes creates and manages tasks correctly but may forget to add critical information or consult relevant teams, leading to some estimation and functionality coverage issues.",Creates well-described stories in Jira with proper formatting,Proactively identifies and plans for potential blockers for current feature,Creates a task management system that becomes a model for other teams
+,Create stories individually or collaboratively with other teams.,"Tasks are poorly documented in Jira, lacking clear descriptions and necessary details, making them hard to understand and estimate.","Tasks are somewhat documented in Jira; however, descriptions and details are occasionally unclear or incomplete, causing occasional difficulties in planning and estimation.",Ensures tasks have epics assigned and are linked to stories,Prioritizes tasks according to release schedule for tasks inside current feature,Mentors others in effective decomposition and task management techniques
+,Plan how stories can be tested by QA to minimize questions during feature testing and regressions.,,,Notifies QA team when stories are ready for testing,"Consistently creates high-quality, well-balanced decompositions that optimize team efficiency",Decomposition strategy consistently leads to smoother development cycles and reduced integration issues
+,Notify the QA team when stories for the feature are ready.,,,Task names are clear and follow the team's format,"Stories and tasks are structured to allow parallel development and early QA involvement, accelerating overall feature delivery",
+,,,,"Stories cover atomic, testable flows of the feature, facilitating efficient development and QA processes",,
+,Task and Story Management:,,,Achieves a balanced decomposition - neither too granular nor too broad,,
+,"Break down stories into tasks and add them to the Jira board in the correct format, ensuring they meet criteria for easy estimation in planning poker.",,,,,
+,"Ensure each task has an epic assigned, is linked to a story, includes a clear description, and provides links to designs and APIs (if available).",,,,,
+,Consult with the relevant teams to ensure tasks are correctly divided and cover all necessary functionality.,,,,,
+,"Review and prioritize according to the release schedule, collaborating with the appropriate stakeholders.",,,,,
+,,,,,,
+,Outcome:,,,,,
+,"All tasks are properly documented in Jira, with understandable descriptions, making them easy to estimate and plan.",,,,,
+,,,,,,
+Poker-planning,Preparation:,Rarely participates in poker planning sessions,Attends poker planning sessions but contributes minimally,Independently determines task list for the next sprint,Actively leads discussions during poker planning sessions,Implements innovative estimation techniques that improve accuracy and efficiency
+,Independently determine the task list for the next sprint and ensure sufficient data availability for their completion.,Fails to prepare or estimate tasks independently,Estimates only the simplest tasks,"Estimates simpler tasks (0.5 & 1 SP, sometimes 2 SP) independently",Accurately estimates complex tasks and explains rationale,Mentors team members in effective estimation practices
+,"Estimate simpler tasks (0.5 & 1 SP, sometimes 2 SP) independently.",,"Sometimes brings an excessive number of trivial tasks (0.5 and 1 SP), leading to inefficient use of team planning time",Presents non-estimated tasks during the meeting,Identifies and addresses potential blockers ine reviewed features proactively,Facilitates high-quality planning sessions that consistently result in well-scoped sprints
+,Identify potential blockers and plan solutions.,,May struggle to complete task presentations within the allocated time,Contributes to discussions and aligns on expectations and timelines,"Efficiently manages time during task presentations, allowing for thorough discussion of complex items","Introduces strategies that optimize the balance between individual and team estimations, significantly improving overall planning efficiency"
+,,,,Successfully presents all tasks with adequate quality and receives estimates,"Balances bringing appropriate tasks for team estimation, avoiding excessive trivial tasks while ensuring important discussions occur",
+,Poker Planning Sessions:,,,,,
+,Present non-estimated tasks during the meeting.,,,,,
+,"Contribute to discussions, estimating task scopes, and aligning on expectations and timelines.",,,,,
+,"Receive assessments from colleagues, with everyone voting on task ratings.",,,,,
+,Make adjustments based on the assessments and recommendations.,,,,,
+,Determine and address potential blockers collaboratively with the team.,,,,,
+,,,,,,
+,Outcome:,,,,,
+,"Clear alignment on task scopes and timelines, with documented and adjusted tasks ready for the sprint.",,,,,
+,,,,,,
+Sprint-planning,Task Selection and Prioritization:,Shows little involvement in sprint planning,Participates in sprint planning but relies heavily on others for decision-making,"Selects tasks to fit within sprint's story points, balancing feature development, bug fixing, and technical debt",Proactively suggests optimal task distributions and sprint compositions,Implements innovative sprint planning techniques that significantly improve team productivity
+,"Select tasks to fit within the sprint's story points, balancing feature development, bug fixing, and technical debt.",Fails to prioritize or balance tasks effectively,Attempts to balance tasks but may overlook important factors,"Prioritizes tasks within features, especially for large epics",Effectively negotiates and adjusts sprint scope based on team capacity and project priorities,Develops strategies for long-term planning that align sprints with broader project goals
+,"Prioritize tasks within a feature, especially if the epic is large, to determine which tasks to address first.",,,Discusses capacity and finalizes sprint plan with Project Manager and Product Manager,Ensures a well-balanced and achievable sprint plan,Mentors others in effective sprint planning practices
+,,,,,,
+,Planning and Coordination:,,,,,
+,Add tasks to the Jira board and bring planning poker results from the team.,,,,,
+,Discuss capacity and finalize the sprint plan with the Project Manager and Product Manager.,,,,,
+,Make any necessary adjustments to task priorities and assign tasks to specific developers.,,,,,
+,,,,,,
+,Outcome:,,,,,
+,"Ensure the final sprint scope is agreed upon during the planning meeting, with a balanced workload and clear priorities documented in Jira.",,,,,
+,,,,,,
+Coding,Code Writing and Standards:,Produces code that often doesn't meet project standards or estimates,Writes code that sometimes meets standards and estimates,"Writes clean, optimal code based on task descriptions, adhering to development standards",Consistently produces high-quality code that exceeds project standards,Introduces innovative coding practices that become new standards for the team
+,"Write clean, optimal code based on task descriptions, adhering to development standards and meeting project estimates.",Rarely conducts self-reviews or writes tests,Occasionally conducts self-reviews and writes basic tests,Develops and executes unit and integration tests,Implements comprehensive test suites that significantly improve code reliability,Develops reusable components or libraries that significantly improve development efficiency
+,Analyze the current codebase of the module being modified if necessary.,Some features fully or partly not covered with a feature flag with severe impact on production,Some features fully or partly not covered with a feature flag with no to minor impact on production,Verifies code works locally on different devices and locales before code review,Proactively identifies and resolves potential issues before they reach code review,Mentors team members in advanced coding techniques and best practices
+,Create a feature flag for continuous integration and add components to the application's design system if needed.,,Misses the team’s agreements about code standards,Conducts self code reviews and makes revisions based on feedback,Ensures all features are properly covered by feature flags,Implements sophisticated feature flag strategies that enable complex rollout scenarios and rapid experimentation
+,,,,Ensures all features are properly covered by feature flags,,
+,Testing and Verification:,,,Follow the team’s agreements about code standards,,
+,Develop and execute unit and integration tests to ensure robustness and reliability of new features or modifications.,,,,,
+,Verify that the code works locally on different devices and locales (RTL) before the code review stage.,,,,,
+,Conduct self code reviews before submitting for peer review.,,,,,
+,Make revisions based on code review feedback.,,,,,
+,,,,,,
+,Pull Requests and Code Review:,,,,,
+,"Prepare and review pull requests with attention to detail, filling out descriptions, linking to tasks, selecting reviewers, and applying labels.",,,,,
+,Include a photo or video of the new functionality in the pull request when applicable.,,,,,
+,Ensure pull requests pass automatic checks before manual reviews.,,,,,
+,Make PR changes according to colleagues' comments and ensure the code appears correctly in the staging environment.,,,,,
+,,,,,,
+,Final Validation and Handover:,,,,,
+,Conduct local and staging checks before forwarding the changes to the QA team.,,,,,
+,Ensure the functionality passes test cases prepared by the QA team.,,,,,
+,Fix any fail-tests identified by QA.,,,,,
+,,,,,,
+Bug Resolution,Investigate and address bugs efficiently as assigned by the team lead,Often fails to address assigned bugs in a timely manner,Addresses some bugs but may require frequent reminders,Investigates and addresses bugs efficiently as assigned by the team lead,"Consistently resolves bugs quickly and effectively, often exceeding expectations",Implements innovative debugging techniques that significantly improve the team's ability to identify and resolve issues
+,"Resolve issues through various means:
+ - Correcting code
+ - Clarifying requirements
+ - Coordinating with QA team for problem-solving on their side
+ - Collaborating with other teams when necessary",Shows little initiative in investigating or resolving issues,Attempts to investigate issues but may struggle with complex problems,"Resolves issues through various means (correcting code, clarifying requirements, coordinating with QA)",Proactively identifies and addresses potential issues before they become bugs,Develops tools or processes that reduce the occurrence of bugs in the first place
+,Demonstrate proactive problem-solving and effective communication across teams,,,Demonstrates proactive problem-solving and effective communication across teams,"Collaborates effectively across teams to resolve complex, cross-functional issues",Mentors team members in advanced debugging and problem-solving techniques
+,,,,,,
+,Bug Hunting:,,,,,
+,Prioritize mandatory bugs identified by the QA team,,,,,
+,Request additional tasks from the team lead upon completion of assigned bugs,,,,,
+,,,,,,
+Code-review,"Actively participate in peer code reviews as both a reviewer and a submitter, ensuring that all code changes meet quality standards and follow the company's coding conventions and best practices.",Rarely participates in code reviews or provides superficial feedback,Participates in some code reviews but may miss important issues,Actively participates in peer code reviews as both a reviewer and submitter,"Consistently provides in-depth, insightful feedback that significantly improves code quality",Implements innovative code review practices that significantly improve team efficiency and code quality
+,"Provide timely and constructive feedback on code submissions, focusing on improving code quality, functionality, and maintainability.",Often submits code for review without proper preparation,Prepares pull requests but may overlook some best practices,Provides timely and constructive feedback on code submissions,Organizes meetings for complex pull requests to explain changes to colleagues,Develops tools or processes that enhance the code review process
+,"For highly complex pull requests, consider organizing a meeting with colleagues from the functional area to explain the changes introduced to the codebase (optional).","Misses or delays code review, which caused postponing of the release",Delays code reviews which caused slight delays of tasks readiness,Prepares well-documented pull requests with proper descriptions and labels,Proactively identifies and suggests architectural improvements during reviews,Mentors team members in advanced code review techniques and best practices
+,,,,,,
+Release plan,"Create and assist in executing the release plan, detailing the process for feature team alignment.",Shows little involvement in release planning,Participates in release planning but may overlook important details,Creates and assists in executing the release plan,Proactively identifies and addresses potential release blockers,Implements innovative release planning strategies that significantly reduce risks and improve efficiency
+,"Arrange a meeting between developers of the feature to:
+ - Understand how the feature depends on other platforms
+ - Anticipate corner cases and create a rollback plan for the feature
+ - Account for all platform dependencies
+ - If necessary, plan for force-updating (updating old versions to new ones or disabling support for old versions) the feature",Fails to consider dependencies or potential issues,Considers some dependencies but may miss critical ones,"Arranges meetings to discuss feature dependencies, corner cases, and rollback plans",Develops comprehensive rollback and contingency plans,Develops tools or processes that enhance the release planning and execution process
+,,,,Accounts for platform dependencies and force-update requirements,Effectively coordinates cross-team dependencies for smooth releases,Mentors team members in advanced release planning techniques
+,,,,,,
+Tech sprint,Propose ideas for improvements,Not proposes ideas for improvement,Occasionally proposes ideas for improvement,Proposes ideas for improvements,Consistently proposes innovative ideas that significantly improve the project,Implements groundbreaking improvements that revolutionize the project's architecture or performance
+,Plan tasks for the sprint,Not participating in refactoring or optimizing code,Attempts some refactoring but may not significantly improve code quality,Plans tasks for the sprint,Leads complex refactoring efforts that greatly enhance system performance and scalability,Develops innovative tools or processes that significantly enhance the team's ability to optimize and refactor code
+,"Enhance and optimize the infrastructure and core architecture through systematic refactoring. This includes:
+
+ - Improving code quality, maintainability, and stability
+ - Reducing complexity
+ - Updating legacy systems for better performance and scalability",,,Enhances and optimizes infrastructure and core architecture through refactoring,Proactively identifies and addresses technical debt,Mentors team members in advanced optimization and refactoring techniques
+,"Improving code quality, maintainability, and stability",,,"Improves code quality, maintainability, and stability",,
+,Reducing complexity,,,Removes unused code,,
+,Updating legacy systems for better performance and scalability,,,,,
+,Implement improvements in the code,,,,,
+,Remove unused code,,,,,
+,,,,,,
+Rituals,"Participate in feature team rituals, including:
+
+ - Weekly meetings/stand-ups
+ - Retrospectives
+ - Planning sessions
+- Poker planning (where applicable)","Rarely attends team rituals without a reason (PTO, sick leave) or participates minimally when present",Attends most team rituals but may not actively contribute,"Regularly participates in feature team rituals (weekly meetings, retrospectives, planning sessions, poker planning)",Takes an active role in facilitating team rituals,Implements innovative approaches to team rituals that significantly improve team effectiveness and morale
+,"Participate in platform-specific team rituals and meetings:
+
+ - Sync meetings
+ - Tech talks
+ - Informal and educational meetings
+ - Platform-specific social events",Shows little engagement in discussions or planning activities,Participates in discussions when prompted,"Attends platform-specific team rituals and meetings (sync meetings, tech talks, informal and educational meetings)",Contributes valuable insights that improve team processes and communication,Develops new rituals or processes that become adopted across multiple teams
+,,,,Engages in team social events,Initiates and leads technical discussions or educational sessions,Mentors others in effective participation and facilitation of team rituals
+,,,,,,
+Working with QAs,"After the code is deployed, moving the task in Jira to QA, adding additional comments describing all nuances and potential issues.",Often fails to move tasks to QA in Jira or provide necessary information,Moves tasks to QA in Jira but may provide incomplete information,Consistently moves tasks to QA in Jira after code deployment,"Provides comprehensive, proactive information to QA that anticipates potential questions or issues",Implements innovative practices that significantly improve collaboration between development and QA
+,Answering on all QA questions regarding the code when task moves on the testing stage,Rarely responds to QA questions in a timely manner,Responds to some QA questions but may require prompting,Adds comments describing nuances and potential issues,Collaborates closely with QA to improve testing processes and efficiency,Develops tools or processes that enhance the efficiency and effectiveness of the QA process
+,,,,Responds promptly to all QA questions regarding the code during the testing stage,Actively seeks feedback from QA to improve code quality and testability,Mentors team members in best practices for working effectively with QA
+,,,,,,
+Performance review,"Provide specific, actionable feedback to colleagues, focusing on code quality, professional growth, and areas for improvement",Provides minimal or unhelpful feedback to colleagues,Provides some feedback to colleagues but may lack specificity or actionability,"Provides specific, actionable feedback to colleagues, focusing on code quality, professional growth, and areas for improvement","Consistently provides insightful, constructive feedback that significantly contributes to colleagues' professional growth",Implements innovative feedback mechanisms that enhance the entire team's performance and growth
+,Self-assess and critique your own work to identify self-improvement areas,Shows little self-reflection or desire for improvement,Attempts some self-assessment but may struggle to identify areas for improvement,Self-assesses and critiques own work to identify self-improvement areas,Demonstrates a high level of self-awareness and actively pursues self-improvement opportunities,Develops a culture of continuous improvement within the team
+,,,,,,Mentors others in providing effective feedback and pursuing professional growth
+,,,,,,
+Education,Participate in tech-talks:,Rarely participates in tech-talks or educational opportunities,Occasionally attends tech-talks as a listener,Regularly participates in tech-talks as a listener,Prepares and delivers presentations at tech-talks,Initiates and leads educational programs that significantly enhance the team's technical capabilities
+,As a listener (optional),Shows little interest in expanding technical knowledge,Shows some interest in expanding technical knowledge but may not actively pursue it,Shows interest in expanding technical knowledge,Actively seeks out and participates in educational opportunities,Regularly speaks at industry conferences or writes technical articles
+,Prepare presentations and engage in public speaking (for over-performers),,,,Shares new knowledge with the team,Mentors others in continuous learning and knowledge sharing
+,,,,,,
+Improvements,For Meet expectation and above:,N/A,Complaining on what is wrong without any objective proposal on improvements,Occasionally proposes best practices for the feature team or functional area,"Regularly develops and proposes various best practices for the entire feature team or functional area (architecture, code style, tools, process)",One or several improvements made a significant impact on team and/or company performance.
+,"Develop and propose various best practices for the entire feature team or functional area (architecture, code style, tools, process)",,Awaiting the implementation of improvement from someone else’s side without any own efforts,Attempts to integrate/adapt some improvements to the project,Successfully integrates/adapts significant improvements to the project,
+,Integrate/adapt them to the project,,,,Innovations become widely adopted and significantly improve team or project performance,
+,,,,,,
+Onboarding,For over-performance: Onboarding of a new employee:,N/A,N/A,N/A,Assists in onboarding new employees when asked,Proactively leads the onboarding of new employees
+,"Familiarization with the project, feature-team processes",,,,Provides basic familiarization with the project and feature-team processes,Develops comprehensive onboarding processes that significantly improve new hire integration
+,Support,,,,,Provides ongoing support and mentorship to new team members
+,Feedback,,,,,Regularly solicits and incorporates feedback to improve the onboarding process

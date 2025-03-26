@@ -1,0 +1,31 @@
+.levelTitleBlock {
+  font-size: 14px;
+  padding: 0.15rem 0;
+  line-height: 1.5;
+  margin-left: 25px;
+
+  button {
+    display: none;
+  }
+}
+
+.levelTitle {
+  font-weight: bold;
+}
+
+.levelDescription {
+  font-weight: normal;
+  padding: 0.05rem;
+
+  margin-top: 8px;
+}
+
+.activityGroup {
+  font-weight: bold;
+}
+
+.activity {
+  max-width: 700px;
+  font-weight: normal;
+  line-height: 1.5;
+}
