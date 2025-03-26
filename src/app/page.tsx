@@ -14,6 +14,7 @@ export default async function Home() {
 
   return (
     <PrimeReactProvider>
+      <title>Senior Developer Skills Tree</title>
       <div className="app">
         <h1>Senior Developer Skills Tree</h1>
         <Fieldset
