@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "publish": "npx gh-pages --dist out --dotfiles",
+    "publish": "npx gh-pages --dist out --nojekyll",
     "start": "next start",
     "lint": "next lint"
   },
