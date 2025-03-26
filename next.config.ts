@@ -1,7 +1,17 @@
-import type { NextConfig } from "next";
+import { PHASE_DEVELOPMENT_SERVER } from 'next/constants'
 
-const nextConfig: NextConfig = {
-  output: 'export',
-};
+const getNextConfig = (phase: string) => {
+  const isDev = phase === PHASE_DEVELOPMENT_SERVER
 
-export default nextConfig;
+  /**
+   * @type {import('next').NextConfig}
+   */
+  const nextConfig = {
+    assetPrefix: isDev ? undefined : 'https://believer-ufa.github.io/senior-developer-skills-tree',
+    output: 'export',
+  }
+
+  return nextConfig;
+}
+
+export default getNextConfig;
